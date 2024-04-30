@@ -233,7 +233,7 @@ export const optimizeImages = async ({
     })
   }
 
-  const publicDir = path.resolve(cwd, 'public')
+  const publicDir = path.resolve(cwd, 'public/assets/main')
   if (fs.existsSync(publicDir)) {
     if (!terse) {
       // eslint-disable-next-line no-console
